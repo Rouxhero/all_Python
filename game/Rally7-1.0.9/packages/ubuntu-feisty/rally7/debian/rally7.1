@@ -1,0 +1,127 @@
+.TH "RALLY7" "1"
+
+.\" Manual page prepared from the original README file.
+.\"
+.\" To view this file while editing, run it through groff:
+.\" groff -Tascii -man rally7.1 | less
+
+.SH NAME
+rally7 \- a car racing game from Infukor inspired by an arcade classic with a
+similar name
+.SH SYNOPSIS
+.B rally7
+[OPTION]...
+.SH DESCRIPTION
+.B Rally 7
+is a car racing game from Infukor inspired by an arcade classic with a
+similar name. Written in Python and using
+.B Pygame
+and
+.BR Numeric ,
+it should be playable on a number of different platforms given a fast enough
+computer.
+.PP
+The aim of the game is to navigate your car around the rally course - a maze
+surrounded by scenery - collecting flags and avoiding rocks and the red cars,
+making sure that the flags are cleared before your fuel runs out. If the red
+cars get too close, a smoke screen can be created to make them crash, but
+since this uses fuel, it may be best not to do so too often.
+.SH COMMAND LINE OPTIONS
+.TP
+.B \-\-fullscreen
+Try and run the game in fullscreen mode
+.TP
+.BR \-\-halfsize , " \-\-small"
+Use a game window or display which is half the usual width and height
+.TP
+.B \-\-medium
+Use a game window or display which is four fifths (4/5) of the usual width and
+height
+.TP
+.B \-\-no-sound
+Mute the sound output from the game
+.TP
+.B \-\-no-intros
+Skip game introduction and interlude sequences
+.TP
+.B \-\-no-audio
+Prevent the game from even trying to use audio/sound
+.SH LIMITATIONS
+On some systems, sound output may be managed by some kind of mixing system;
+for example, KDE uses a system called aRts for this purpose. To work in such
+environments, you will need to specify a special command before
+.BR python .
+.PP
+For example:
+.RS 4
+.PP
+.PD 0
+.B artsdsp python rally7.py --fullscreen
+.PP
+.B artsdsp rally7 --fullscreen
+.RE
+.PD
+.PP
+Alternatively, you can try and switch off the mixing system.
+.SH "GAME CONTROLS"
+Use the following keys to play the game:
+.IP C 14
+Insert coin!
+.IP 1 14
+Player 1 (1UP) start
+.IP Z 14
+Turn left
+.IP X 14
+Turn right
+.IP K 14
+Turn upwards
+.IP M 14
+Turn downwards
+.IP "L or SPACE" 14
+Create smoke screen
+.IP ESCAPE 14
+Quit current game, quit game
+.IP S 14
+Take a snapshot of the screen (as
+.I snapshot-*.png
+in the current directory)
+.SH "CABINET CONTROLS"
+The following keys can be used to set up the game cabinet:
+.IP H 14
+Show the controls
+.IP F1 14
+Small display
+.IP F2 14
+Medium display
+.IP F3 14
+Large display
+.IP F4 14
+Fullscreen mode
+.IP F5 14
+Window mode
+.PP
+Note that in fullscreen mode, the large display may not actually scale to a
+larger size on screen than the small or medium size displays; this is due to
+the way particular monitors or screens perform scaling of graphical output.
+(On the 1280x1024 LCD monitor used for testing, the medium display scaled
+better than the large display, for example.)
+.SH "SEE ALSO"
+.BR python (1)
+.PP
+.PD 0
+Rally 7
+.I http://www.infukor.com/rally7.html
+.PP
+Pygame
+.I http://www.pygame.org/
+.PP
+Numeric
+.I http://sourceforge.net/projects/numpy/
+.PD
+.SH COPYRIGHT
+Copyright \(co 2006, 2007 Paul Boddie <paul@boddie.org.uk>
+.PP
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.

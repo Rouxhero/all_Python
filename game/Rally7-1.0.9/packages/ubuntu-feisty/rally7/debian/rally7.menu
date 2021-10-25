@@ -1,0 +1,5 @@
+?package(rally7): needs="X11" \
+  section="Games/Arcade" \
+  title="Rally 7" \
+  command="/usr/bin/rally7" \
+  icon="rally7-icon"

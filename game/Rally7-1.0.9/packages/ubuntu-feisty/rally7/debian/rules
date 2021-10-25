@@ -1,0 +1,55 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+PYVERS=$(shell pyversions -vr)
+
+build: build-stamp
+
+build-stamp:
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f *-stamp
+	rm -rf build
+	find . -name '*.py[co]' | xargs rm -f
+	dh_clean
+
+install: build install-prereq
+	# Script fixing would appear here.
+
+install-prereq:
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+
+# Build architecture-independent files here.
+
+binary-indep: install
+	python tools/convert.py
+	python tools/music.py
+	dh_testdir -i
+	dh_testroot -i
+	dh_installmenu -i
+	dh_install -i
+	dh_pycentral -i usr/lib/rally7/bin
+	dh_installdocs -i
+	dh_installchangelogs -i
+	gzip --best debian/rally7.1
+	dh_installman -i debian/rally7.1.gz
+	dh_fixperms -i
+	dh_installdeb -i
+	dh_gencontrol -i
+	dh_md5sums -i
+	dh_builddeb -i
+
+# Build architecture-dependent files here.
+
+binary-arch:
+	# Empty rule for this package.
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-arch binary-indep binary install

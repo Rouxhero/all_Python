@@ -1,0 +1,18 @@
+Source: rally7
+Priority: optional
+Maintainer: Paul Boddie <paul@boddie.org.uk>
+Build-Depends: debhelper (>> 3.0.0), python2.4-dev, timidity (>= 2.13.2), freepats (>= 20040611), sox (>= 12.17.5), kdelibs-bin (>= 3.4.0)
+Standards-Version: 3.5.8
+Section: python
+
+Package: rally7
+Section: python
+Architecture: all
+Depends: python2.4-pygame (>= 1.6), python2.4-numeric (>= 23.7), python2.4
+Suggests: noteedit (>= 2.7.1), makeself (>= 2.1.3-3)
+Description: Rally 7 is a car racing game from Infukor inspired by an arcade
+ classic with a similar name. Written in Python and using Pygame and Numeric,
+ it should be playable on a number of different platforms given a fast enough
+ computer.
+ .
+ This package is built for Python 2.4.x.

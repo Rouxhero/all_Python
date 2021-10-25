@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: Rally 7
+Version: 1.0.9
+Author: Paul Boddie
+Author-email: paul at boddie org uk
+Maintainer: Paul Boddie
+Maintainer-email: paul at boddie org uk
+Home-page: http://www.infukor.com/rally7.html
+Download-url: http://www.infukor.com/downloads/Rally7-1.0.9.tar.gz
+Summary: A car racing game inspired by an arcade classic with a similar name.
+License: GPL (version 3 or later)
+Description: Rally 7 is a car racing game from Infukor inspired by an arcade classic with a
+        similar name. Written in Python and using Pygame and Numeric, it should be
+        playable on a number of different platforms given a fast enough computer.
+Keywords: pygame numeric arcade car racing game
+Requires: pygame
+Requires: numeric
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Games/Entertainment :: Arcade

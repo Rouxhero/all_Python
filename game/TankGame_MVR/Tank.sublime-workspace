@@ -1,0 +1,449 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "menu.py",
+			"settings":
+			{
+				"buffer_size": 1191,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/leolv/OneDrive/Bureau/litlle game/little game.py",
+			"settings":
+			{
+				"buffer_size": 1171,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/leolv/OneDrive/Bureau/little game.py",
+		"/C/Users/leolv/OneDrive/Bureau/crack.py",
+		"/C/Users/leolv/OneDrive/Bureau/game/map.py",
+		"/C/Users/leolv/OneDrive/Bureau/game/module.py",
+		"/C/Users/leolv/OneDrive/Bureau/game/menu.py",
+		"/C/Users/leolv/OneDrive/Bureau/game/test.py",
+		"/C/Users/leolv/OneDrive/Bureau/tp ensemble.py",
+		"/F/Quantum/res/img/getimg.py",
+		"/F/Fac/BABOUBEUHkdzokdozk/BABOUBEUHkdzokdozk/BABOUBEUHkdzokdozk/func.py",
+		"/F/Fac/BABOUBEUHkdzokdozk/BABOUBEUHkdzokdozk/interface.py",
+		"/F/Fac/BABOUBEUHkdzokdozk/BABOUBEUHkdzokdozk/func.py",
+		"/F/space/res/script/main.py",
+		"/C/Users/leolv/OneDrive/Bureau/ok.py",
+		"/F/RPG by leo/res/script/new.py",
+		"/C/Users/leolv/OneDrive/Bureau/graph/module.py",
+		"/C/Users/leolv/OneDrive/Bureau/graph/graph.py",
+		"/C/Users/leolv/OneDrive/Bureau/graph/Graph.option",
+		"/F/Quantum/res/script/module.py",
+		"/F/Quantum/res/script/graph.py",
+		"/F/Quantum/res/script/Llserveur.py",
+		"/C/Users/leolv/OneDrive/Bureau/serveur.py",
+		"/F/programe/serveur.py",
+		"/D/TP1.py",
+		"/F/RPG by leo/res/script/testplayer.py",
+		"/F/RPG by leo/res/script/mod.py",
+		"/F/RPG by leo/res/script/main.py",
+		"/F/RPG by leo/res/script/menu.py",
+		"/F/RPG by leo/res/script/map.py",
+		"/media/leo/LEo1/RPG by leo/res/img/clean.py",
+		"/media/leo/LEo1/RPG by leo/res/img/getimg.py",
+		"/home/leo/Bureau/server.py",
+		"/home/leo/Bureau/client.py",
+		"/home/leo/Bureau/Remote-Desktop-1547232760649.desktop",
+		"/media/leo/LEo1/RPG by leo/res/img/23.png",
+		"/media/leo/LEo1/graph/mapc1.mll",
+		"/media/leo/LEo1/graph/main.py",
+		"/media/leo/LEo1/graph/mod.py",
+		"/home/leo/Bureau/getpage.py",
+		"/media/leo/LEo1/graph/modl.py",
+		"/media/leo/LEo1/graph/param.pll",
+		"/media/leo/LEo1/graph/map1.mll",
+		"/media/leo/LEo1/graph/testbin.py",
+		"/media/leo/LEo1/graph/test.mll",
+		"/media/leo/LEo1/RPG by leo/res/libs/pol.ttf",
+		"/media/leo/LEo/site/news.html",
+		"/media/leo/LEo/site/index2.html",
+		"/media/leo/LEo/site/download.html",
+		"/media/leo/LEo/site/About.html",
+		"/media/leo/LEo/Quantum/res/img/getimg.py",
+		"/media/leo/LEo/site/res/style.css",
+		"/home/leo/Bureau/test.html",
+		"/home/leo/Bureau/tsest.py",
+		"/media/leo/LEo/graph/main.py",
+		"/media/leo/LEo/Quantum/res/script/play.py",
+		"/media/leo/LEo/Quantum/res/script/server.conf",
+		"/media/leo/LEo/Quantum/res/script/serv-python-start.py",
+		"/media/leo/LEo/Quantum/res/script/install.py",
+		"/media/leo/LEo/Quantum/res/index2.php",
+		"/media/leo/LEo/Quantum/res/script/FTP.py",
+		"/media/leo/LEo/Quantum/res/script/index.py",
+		"/media/leo/LEo/Quantum/res/script/Llserveur.py",
+		"/media/leo/LEo/Llserveur.py",
+		"/media/leo/LEo/site/index.py",
+		"/home/leo/Bureau/ca tourne mal!!!.txt",
+		"/home/leo/Bureau/20180320_143444.png"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    ",
+			"main.update()",
+			"\t",
+			"8",
+			"Ã",
+			"Ã©",
+			"Ã¨",
+			"aa",
+			"Ã®",
+			"command=",
+			"alert",
+			"alert ",
+			"01",
+			"00",
+			"20",
+			"print",
+			"pass",
+			"break",
+			"20/3.",
+			"5",
+			"9",
+			"6",
+			"7",
+			"2",
+			"3",
+			"9",
+			"5",
+			"6",
+			"3",
+			"9",
+			"7",
+			"2",
+			"0",
+			"0101010101010001010101010101010101010101000101010101010101010101010100010101010101010101010101010001010101010101010101010101000101010101010101010101010100010101010101010101010101010001010101010101010101010101000101010101010101010101010100010101010101010101010101010001010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101",
+			"5",
+			"4",
+			"6",
+			"9",
+			"7",
+			"3",
+			"2",
+			"1",
+			"0",
+			"1",
+			"address"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\t",
+			"main1.update()",
+			"    ",
+			"7",
+			"à",
+			"é",
+			"è",
+			"a",
+			"ai",
+			" ",
+			"",
+			"surface",
+			"23",
+			"01",
+			"5",
+			" ",
+			"pass",
+			"1",
+			"8",
+			"09",
+			"06",
+			"07",
+			"02",
+			"03",
+			"2",
+			"05",
+			"06",
+			"03",
+			"09",
+			"07",
+			"02",
+			"",
+			"05",
+			"04",
+			"06",
+			"09",
+			"07",
+			"03",
+			"02",
+			"01",
+			"00",
+			"01",
+			"8c70"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "menu.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/leolv/OneDrive/Bureau/litlle game/little game.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 113.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Tank.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
