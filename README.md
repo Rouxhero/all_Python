@@ -1,7 +1,25 @@
-# all_Python
-Don't look here please 😱
+# All Python Project
 
-(![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Rouxhero/all_Python))
+This repo contains parts of my Python Projects. 
+You can found a lot of litle script very helpfull, or just funny to use
 
-TODO: Ranger et finir les projets
 
+# Project List:
+
+
+```
+
+	📂
+	 |
+	 L 📂 games
+	 |	| 
+	 |	L 🐍 snake.py
+	 |	L 🛠 mapGen.py
+	 |	L 📂 rpg_mapgenerator
+	 |
+	 L 📂 utils
+	 	|
+	 	L 🔗 fil_parser.py
+	 	L ⚙ makerequest.py
+	 	L 💿 ServerFTP.py
+```

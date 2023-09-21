@@ -1,0 +1,7 @@
+{
+    "title": "RPG Pygame",
+    "width": 800,
+    "height": 640,
+    "map_width": 200,
+    "map_height": 200
+}
